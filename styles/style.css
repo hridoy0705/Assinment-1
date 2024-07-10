@@ -1,117 +1,157 @@
-
-
-
-.Azeret-mono{
+.Azeret-mono {
   font-family: "Azeret Mono", monospace;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-.header{
-    background-image: url("../picture/Hero-bg.png");
-    background-size: cover;
-    height:500px;
-    background-position: top;
-    background-repeat: no-repeat;
-    justify-content: center;  
-    .pic{
-        background-image: url("Group.png");
-        background-repeat: no-repeat;
-        justify-content: center;
-        justify-items: center;
-        background-position: top center;
-        margin: 50px 0;
-        
-    }
-      
-}
-.first-img{
-   background-image: url("../B10A1-Challenge-Begins/Group.png");
-    background-size: cover;
-    width:50px;
-    background-position: top;
+.header {
+  background-image: url("../picture/Hero-bg.png");
+  background-size: cover;
+  height: 500px;
+  background-position: top;
+  background-repeat: no-repeat;
+  justify-content: center;
+  .pic {
+    background-image: url("Group.png");
     background-repeat: no-repeat;
     justify-content: center;
-    nav.first-title{
-        font-size: 35px;
-    }
-  
+    justify-items: center;
+    background-position: top center;
+    margin: 50px 0;
+  }
+}
+.first-img {
+  background-image: url("../B10A1-Challenge-Begins/Group.png");
+  background-size: cover;
+  width: 50px;
+  background-position: top;
+  background-repeat: no-repeat;
+  justify-content: center;
+  nav.first-title {
+    font-size: 35px;
+  }
 }
 
-.first-div{
-    text-align:center;
-    /* padding-top: 220px;
-    margin-top: 50px; */
-    padding: 200px;
-    
-    font-size: 20px;
-    justify-content: center;
-    width: 1440;
-    height: 650px;
+.first-div {
+  text-align: center;
+  padding-top: 240px;
+  font-size: 20px;
+  justify-content: center;
+  width: 1440;
+  height: 650px;
 }
-.bton{
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: medium;
-    border-radius: 5px;
-    background-color:#0D1321;
-    width:244px;
-    height:65px;
-    
+.bton {
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: #b2b7c2;
+  width: 244px;
+  height: 65px;
 }
-.second-title{
-    color:#0D1321;
-    font-weight: bold;
-    font-size: 32px;
-    text-align: center;
+.second-title {
+  color: #0d1321;
+  font-weight: bold;
+  font-size: 32px;
+  text-align: center;
 }
-.second-discription{
-    color: #0D1321;
-    font-size: 18px;
-    text-align: center;
-    
+.second-discription {
+  color: #0d1321;
+  font-size: 18px;
+  text-align: center;
 }
-.section-second{
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    justify-items: center;
-    
+.second-section {
+  background-color: #edf2fc;
+  margin: 50px auto;
 }
-.banner{
+.sectio-title {
+  font-size: 34px;
+  font-weight: 800;
+  margin-bottom: 6px;
+}
+.section-description {
+  font-size: 16px;
+  margin-bottom: 6px;
+}
+.banner {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: #ffffff;
+
+  margin: 20px 0px;
+  padding: 25px;
+}
+.why-div {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+.section-title {
+  font-size: 42px;
+}
+.sectio-discription {
+  font-size: 20px;
+  width: 852px;
+  margin: auto;
+}
+.right-img {
+  display: flex;
+}
+.third-title {
+  color: #0d1321;
+  font-size: 24;
+}
+/* .third-contain{
     display: flex;
     justify-content: center;
     justify-items: center;
     justify-content: space-around;
+} */
+.first-title {
+  font-size: 24px;
 }
-.why-div{
-    text-align: center;
-    justify-content: center;
-    justify-items: center;
-    justify-content: space-around;
+.first-discription {
+  font-size: 18px;
 }
-.section-title{
-    font-size: 40px;
+.btn-primary {
+  background-color: #edf2fc;
+  color: black;
+  width: 171px;
+  height: 47px;
+  font-size: 20px;
+  border-radius: 5px;
 }
-.sectio-discription{
-    font-size:20px ;
+.skills-card {
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
 }
-.right-img{
+
+.footer-img {
+  background-image: url("../picture/handshake.jpg");
+  height: 300px;
+  padding: 40px;
+}
+.icon{
     display: flex;
-}
-.third-title{
-    color: #0D1321;
-    font-size: 24;
-}
-.third-contain{
-    display: flex;
-    justify-content: center;
+    justify-content:center;
     justify-items: center;
-    justify-content: space-around;
+    gap:10px;
+    width: 35px;
+    height: 35px;
+    margin-top: 20px ;
+    
+    
 }
-.first-title{
-    font-size: 35px;
+.icon-div{
+  display: flex;
+  justify-items: center;
+  justify-content: space-around;
 }
-.first-discription{
-font-size: 20px;
+#footer{
+  margin-top: 40px;
 }
