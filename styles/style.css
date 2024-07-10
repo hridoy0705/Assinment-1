@@ -20,6 +20,8 @@
         justify-content: center;
         justify-items: center;
         background-position: top center;
+        margin: 50px 0;
+        
     }
       
 }
@@ -38,21 +40,24 @@
 
 .first-div{
     text-align:center;
-    padding-top: 220px;
+    /* padding-top: 220px;
+    margin-top: 50px; */
+    padding: 200px;
+    
     font-size: 20px;
     justify-content: center;
     width: 1440;
     height: 650px;
-    margin: 0 auto;
 }
 .bton{
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: 600;
+    font-size: medium;
     border-radius: 5px;
     background-color:#0D1321;
-    font-color:
-    width:50px;
-    height:40px;
+    width:244px;
+    height:65px;
+    
 }
 .second-title{
     color:#0D1321;
@@ -103,4 +108,10 @@
     justify-content: center;
     justify-items: center;
     justify-content: space-around;
+}
+.first-title{
+    font-size: 35px;
+}
+.first-discription{
+font-size: 20px;
 }
