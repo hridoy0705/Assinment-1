@@ -3,6 +3,18 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+.manu-var{
+  display: flex;
+  justify-content:space-between;
+}
+.manu-bton{
+  font-size: 20px;
+}
+.top-title{
+  font-size: 28px;
+  color: #0D1321;
+  width: 244px;
+}
 
 .header {
   background-image: url("../picture/Hero-bg.png");
@@ -154,4 +166,17 @@
 }
 #footer{
   margin-top: 40px;
+}
+.next-target{
+  margin: 0 auto;
+  text-align: center;
+}
+.aim-title{
+  font-size: 32px;
+  color: #0D1321;
+}
+.aim-discription{
+  font-size: 16px;
+  color: #0D1321;
+  margin: 0 auto;
 }
